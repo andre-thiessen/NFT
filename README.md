@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+# Building an NFT contract
+This repository is part of my studies about web3 and blockchain development
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## What was developed
+In this simple project, it was developed a smart contract in solidity to create a NFT.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+It was based on ERC721 Token ("https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol")
